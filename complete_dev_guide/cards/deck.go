@@ -17,10 +17,10 @@ type deck []string
 func newDeck() deck {
 	cards := deck{}
 	cardSuits := []string{
-		"Wands",
-		"Swords",
-		"Cups",
-		"Pentacles",
+		"Hearts",
+		"Diamonds",
+		"Clubs",
+		"Spades",
 	}
 	cardValues := []string{
 		"Ace",
